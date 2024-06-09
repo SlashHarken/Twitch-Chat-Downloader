@@ -39,7 +39,7 @@ setup(
     keywords='Twitch',
     name='tcd',
     packages=find_packages(),
-    python_requires=">=3.8",
+    python_requires=">=3.7",
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
