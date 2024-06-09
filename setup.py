@@ -9,8 +9,8 @@ with open(os.path.join(this_directory, 'readme.md'), encoding='utf-8') as f:
     readme = f.read()
 
 requirements = ['requests==2.27.1', 'twitch-python==0.0.20', 'pytz==2022.1', 'python-dateutil==2.8.2']
-test_requirements = ['twine==4.0.0', 'wheel==0.37.1']
-setup_requirements = ['pipenv==2022.4.30', 'setuptools']
+test_requirements = ['twine==4.0.0', 'wheel']
+setup_requirements = ['pipenv', 'setuptools']
 
 setup(
     author='Petter Kraabøl',
